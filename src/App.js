@@ -7,14 +7,18 @@ import Footer from './components/footer';
 import {ThemeProvider} from 'styled-components'
 //import GlobalStyles from './components/styles/Global'
 
-const theme = {
-  colors: {
-    header: '#ebfbff',
-    body: '#fff',
-    footer: '#003333',
+export const theme = {
+  light: {
+    header: "#ebfbff",
+    body: "#fff",
+    footer: "#003333",
   },
-  mobile: '768px',
-}
+  dark: {
+    header: "#1E5128",
+    body: "#191A19",
+    footer: "#003333",
+  },
+};
 function App() {
   return (
     <ThemeProvider theme={theme}>

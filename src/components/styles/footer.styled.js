@@ -16,6 +16,7 @@ export const FooterStyle = styled.footer`
   }
   @media (max-width: 768px) {
     text-align: center;
+    font-size: 14px;
     ul {
       padding: 0;
     }

@@ -8,11 +8,16 @@ export const Card = styled.div`
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
   margin: 40px 3rem;
   padding: 60px;
-  flex-direction: ${({layout})=> layout || 'row'};
+  flex-direction: ${({ layout }) => layout || "row"};
   img {
     width: 250px;
   }
   @media (max-width: 768px) {
     flex-direction: column;
+    font-size: 11px;
+    padding: 40px;
+    img {
+      width: 150px;
+    }
   }
 `;

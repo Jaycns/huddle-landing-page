@@ -14,4 +14,9 @@ export const Button = styled.button`
     opacity: 0.9;
     transform: scale(0.98);
   }
+  @media (max-width: 768px) {
+    font-size: 8px;
+    padding: 6px 20px;
+    margin-bottom: 10px;
+  }
 `;

@@ -4,13 +4,16 @@ import { Box } from "./styles/container.styled";
 import { Button } from "./styles/Button.styled";
 import { Flex } from "./styles/Flex.styled";
 
+const initialSideBarShow = window.matchMedia("(max-width: 768px)").matches;
 function Header() {
   return (
     <HeaderStyled>
       <Box>
         <Nav>
           <Logo src="./images/logo.svg" alt="Logo" />
-          <Button>Try it free</Button>
+          <Button style={{ display: initialSideBarShow && "none" }}>
+            Try it free
+          </Button>
         </Nav>
         <Flex>
           <div>
