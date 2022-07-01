@@ -12,10 +12,14 @@ export const Card = styled.div`
   img {
     width: 250px;
   }
+
   @media (max-width: 768px) {
     flex-direction: column;
     font-size: 11px;
     padding: 40px;
+    &:last-child img {
+      width: 100px;
+    }
     img {
       width: 150px;
     }

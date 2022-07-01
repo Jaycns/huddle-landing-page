@@ -13,10 +13,10 @@ function Footer() {
             <li>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni
               repudiandae dolorem, itaque accusantium quisquam eaque hic sit.
-              Similique, esse!
+              Similique, esse! ~ R-Amax
             </li>
             <li>+234-80-9357-5985</li>
-            <li>example@huddle.com</li>
+            <li>amax@huddle.com</li>
           </ul>
           <ul>
             <li>About Us</li>

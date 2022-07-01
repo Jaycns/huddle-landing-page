@@ -22,7 +22,7 @@ function Header() {
             <p>
               Huddle re-imagines the way we build commuinities. You have a
               voice, but so does your audience. Create connections with your
-              users as you engage in genuine discussion.
+              users as you engage in genuine discussion. ~R-amax😎
             </p>
             <Button bg="#ff0099" color="#fff">
               Get Started For Free
