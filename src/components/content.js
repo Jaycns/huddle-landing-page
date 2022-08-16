@@ -19,8 +19,8 @@ export const content = [
   },
   {
     id: 4,
-    title: "Amax",
-    body: "Happy new month y'all! Deep appreciation from yours truly, R-amax. Stay tuned for more information on future collaborations",
+    title: "Amax and Jaycn",
+    body: "Happy new month y'all! Deep appreciation from yours truly, R-amax and Jaycn. Stay tuned for more information on future collaborations",
     image: "un_draw_woman.svg",
   },
 ];

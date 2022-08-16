@@ -11,12 +11,11 @@ function Footer() {
         <Flex>
           <ul>
             <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea magni
-              repudiandae dolorem, itaque accusantium quisquam eaque hic sit.
-              Similique, esse! ~ R-Amax
+              This is one of the popuar deigns out there, It's not a complicate one and
+             is not difficult to implement. For more design ideas, you can make enquiries @jaycn ~ Jaycn
             </li>
             <li>+234-80-9357-5985</li>
-            <li>amax@huddle.com</li>
+            <li>jaycn@huddle.com</li>
           </ul>
           <ul>
             <li>About Us</li>
@@ -30,7 +29,7 @@ function Footer() {
           </ul>
           <SocialIcons />
         </Flex>
-        <p>&copy; 2021 Huddle. All rights reserved</p>
+        <p>&copy; Design by Jaycn 2021. All rights reserved</p>
       </Box>
     </FooterStyle>
   );
